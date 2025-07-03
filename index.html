@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Name | Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+  
+  <!-- FontAwesome for icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  
+  <!-- Your CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header/Nav -->
+  <header>
+    <nav>
+      <div class="logo">YourName</div>
+      <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Floating Social Icons -->
+  <div class="social-icons">
+    <a href="https://github.com/yourusername" target="_blank" aria-label="GitHub" title="GitHub" rel="noopener noreferrer">
+      <i class="fab fa-github"></i>
+    </a>
+    <a href="https://linkedin.com/in/yourusername" target="_blank" aria-label="LinkedIn" title="LinkedIn" rel="noopener noreferrer">
+      <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="mailto:youremail@example.com" aria-label="Email" title="Email">
+      <i class="fas fa-envelope"></i>
+    </a>
+  </div>
+
+  <!-- Home / Hero Section -->
+  <section id="home" class="home hero">
+    <div class="hero-content">
+      <h1>Hello, I'm <span>Samruddhi Bhogawade</span></h1>
+      <p>Passionate about <strong>Coding</strong> & <strong>Fashion Designing</strong></p>
+      <a href="#contact" class="btn-primary">Let's Connect</a>
+    </div>
+    <div class="hero-image">
+      <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&q=80" alt="Profile Photo" />
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="container">
+    <h2>About Me</h2>
+    <p>
+      I am a diploma student at SPIT Polytechnic Kurund (2023-2026), scoring 75.5%
+      overall. I am passionate about full-stack web development and fashion designing,
+      always eager to learn new technologies and creative styles.
+    </p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="container">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <i class="fab fa-html5 skill-icon" style="color:#e34c26;"></i>
+        <h3>HTML</h3>
+        <p>Semantic and accessible markup expertise.</p>
+      </div>
+      <div class="skill-card">
+        <i class="fab fa-css3-alt skill-icon" style="color:#2965f1;"></i>
+        <h3>CSS</h3>
+        <p>Responsive, animated, and modern styling.</p>
+      </div>
+      <div class="skill-card">
+        <i class="fab fa-js skill-icon" style="color:#f0db4f;"></i>
+        <h3>JavaScript</h3>
+        <p>Modern ES6+ with DOM and API integration.</p>
+      </div>
+      <div class="skill-card">
+        <i class="fas fa-tshirt skill-icon" style="color:#ff4081;"></i>
+        <h3>Fashion Designing</h3>
+        <p>Creative and trend-aware design skills.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="container">
+    <h2>Education</h2>
+    <div class="education-card card-with-image">
+      <img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=600&q=80" alt="Education" />
+      <div class="card-content">
+        <h3>Diploma in Engineering</h3>
+        <p>SPIT Polytechnic Kurund</p>
+        <p><strong>2023 - 2026</strong></p>
+        <p>Overall Academics: 75.5%</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="container">
+    <h2>Experience</h2>
+    <div class="experience-card card-with-image">
+      <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=600&q=80" alt="Internship" />
+      <div class="card-content">
+        <h3>Full Stack Development Intern</h3>
+        <p><strong>ProAzure | June 2025 – August 2025 (Ongoing)</strong></p>
+        <p>Building full stack web apps, collaborating on projects, and sharpening coding skills.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="container">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card card-with-image">
+        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=600&q=80" alt="Portfolio Website" />
+        <div class="card-content">
+          <h3>Portfolio Website</h3>
+          <p>Personal portfolio built using HTML, CSS, and JavaScript.</p>
+        </div>
+      </div>
+      <div class="project-card card-with-image">
+        <img src="https://images.unsplash.com/photo-1520974737039-56e3b95b91aa?auto=format&fit=crop&w=600&q=80" alt="Fashion Design" />
+        <div class="card-content">
+          <h3>Fashion Design Mockups</h3>
+          <p>Created sketches and digital mockups showcasing fashion concepts.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="container contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Your Name. All rights reserved.
+  </footer>
+
+  <!-- JavaScript for nav toggle -->
+  <script>
+    const menuToggle = document.getElementById('menu-toggle');
+    const navLinks = document.getElementById('nav-links');
+
+    menuToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+
+    navLinks.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('active');
+      });
+    });
+  </script>
+</body>
+</html>
